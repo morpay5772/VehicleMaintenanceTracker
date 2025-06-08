@@ -5,7 +5,7 @@ Assignment: SDC320 Course Project Week 4
 */
 using System.Data.SQLite;
 public class SQLiteDatabase
-{
+{ 
     public static SQLiteConnection Connect(string database)
     {
         string cs = @"Data Source=" + database;

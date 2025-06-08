@@ -4,7 +4,7 @@ Date: 6/8/2025
 Assignment: SDC320 Course Project Week 4
 */
 public class ParkingLot
-{
+{ 
     public List<Vehicle> Vehicles { get; set; }
     public ParkingLot()
     {
@@ -15,7 +15,7 @@ public class ParkingLot
         Vehicles.Add(v);
     }
     public void DisplayAllVehicles()
-    {
+    { 
         foreach (var v in Vehicles)
         {
             Console.WriteLine(v);

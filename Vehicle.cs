@@ -4,7 +4,7 @@ Date: 6/8/2025
 Assignment: SDC320 Course Project Week 4
 */
 public class Vehicle : VehicleBase, IMaintainable
-{
+{ 
     public Vehicle() { }
     public Vehicle(int vehicleId, string make, string model, int year, string vin)
     {

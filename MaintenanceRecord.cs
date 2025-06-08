@@ -4,7 +4,7 @@ Date: 6/8/2025
 Assignment: SDC320 Course Project Week 4
 */
 public class MaintenanceRecord
-{
+{ 
     public int RecordId { get; set; }
     public int VehicleId { get; set; }
     public int ServiceId { get; set; }

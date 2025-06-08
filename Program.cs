@@ -43,7 +43,7 @@ public class DBExample
             Console.WriteLine("\nAll Vehicles in the Database After Deletion");
             PrintVehicles(VehicleDb.GetAllVehicles(conn));
         }
-    }
+    }  
     //print a list of vehicles
     private static void PrintVehicles(List<Vehicle> vehicles)
     {

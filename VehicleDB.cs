@@ -5,7 +5,7 @@ Assignment: SDC320 Course Project Week 4
 */
 using System.Data.SQLite;
 public class VehicleDb
-{
+{ 
     //creates the Vehicles table if it doesn't exist
     public static void CreateTable(SQLiteConnection conn)
     {

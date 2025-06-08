@@ -5,7 +5,7 @@ Assignment: SDC320 Course Project Week 4
 */
 using System.Collections.Generic;
 public abstract class VehicleBase
-{
+{ 
     public int VehicleId { get; set; }
     public string? Make { get; set; }
     public string? Model { get; set; }
