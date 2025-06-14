@@ -1,7 +1,8 @@
 /*
 Name: Moriah Payne
-Date: 6/8/2025
-Assignment: SDC320 Course Project Week 4
+Date: 6/15/2025
+Assignment: SDC320 Course Project Week 
+Description: abstract base class for vehicles, contains common properties, used for polymorphism across different vehicle types
 */
 using System.Collections.Generic;
 public abstract class VehicleBase

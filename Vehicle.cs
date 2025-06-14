@@ -1,7 +1,8 @@
 /*
 Name: Moriah Payne
-Date: 6/8/2025
-Assignment: SDC320 Course Project Week 4
+Date: 6/15/2025
+Assignment: SDC320 Course Project Week 5
+Description: inherits from VehicleBase and implements IMaintainable. Represents specific type of vehicle with ability to receive and track maintenance
 */
 public class Vehicle : VehicleBase, IMaintainable
 { 

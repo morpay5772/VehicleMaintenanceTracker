@@ -1,7 +1,8 @@
 /*
 Name: Moriah Payne
-Date: 6/8/2025
-Assignment: SDC320 Course Project Week 4
+Date: 6/15/2025
+Assignment: SDC320 Course Project Week 5
+Description: handles database operations for vehicle records
 */
 using System.Data.SQLite;
 public class VehicleDb
