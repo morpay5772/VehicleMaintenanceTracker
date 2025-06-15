@@ -6,25 +6,24 @@ Description: demonstrates the use of classes, manages application, interacts wit
 */
 using System.Data.SQLite;
 using System.Collections.Generic;
-
-public class DBExample
+public class VehicleManagementSystem
 {
     public static void Main(string[] args)
     {
         const string dbName = "MoriahPayne.db";
-        Console.WriteLine("\nMoriah Payne Week 4 Course Project - Vehicle Maintenance Tracker\n");
+        Console.WriteLine("\nMoriah Payne Week 4 Course Project - Vehicle Tracker\n");
 
-        // Connect to SQLite database
+        //connect to SQLite database
         SQLiteConnection conn = SQLiteDatabase.Connect(dbName);
         if (conn != null)
         {
             //create Vehicles table
             VehicleDb.CreateTable(conn);
             //add vehicle records
-            VehicleDb.AddVehicle(conn, new Vehicle(0, "Honda", "Civic", 2015, "1HGCM82633A123456"));
-            VehicleDb.AddVehicle(conn, new Vehicle(0, "Ford", "Escape", 2020, "1FMCU9GD0KUA12345"));
-            VehicleDb.AddVehicle(conn, new Vehicle(0, "Toyota", "Camry", 2018, "4T1BF1FK5JU123456"));
-            VehicleDb.AddVehicle(conn, new Vehicle(0, "Chevrolet", "Malibu", 2022, "1G1ZD5ST5NF123456"));
+            VehicleDb.AddVehicle(conn, new Vehicle(1, "Honda", "Civic", 2015, "1HGCM82633A123456"));
+            VehicleDb.AddVehicle(conn, new Vehicle(2, "Ford", "Escape", 2020, "1FMCU9GD0KUA12345"));
+            VehicleDb.AddVehicle(conn, new Vehicle(3, "Toyota", "Camry", 2018, "4T1BF1FK5JU123456"));
+            VehicleDb.AddVehicle(conn, new Vehicle(4, "Chevrolet", "Malibu", 2022, "1G1ZD5ST5NF123456"));
             //list all vehicles
             Console.WriteLine("\nAll Vehicles in the Database");
             PrintVehicles(VehicleDb.GetAllVehicles(conn));
